@@ -7,6 +7,7 @@
 * promote app
 
 
+
 * build: collapse screenshots; questions
 * FAQ: How to use app offline
 * add screenshots to OBS setup
