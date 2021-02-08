@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-YMJ4VMEN1B"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-YMJ4VMEN1B');
+  </script>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>25-5 | OBS Widget</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="/css/skeleton.css?v=0">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/favicon/site.webmanifest">
+
+</head>
+
+<body>
+
+    <div class="container">
+      <div class="row">
+        <div class="u-full-width">
+          <h2 class="u-full-width">How to use the OBS Widget</h2>
+          <p class="u-full-width">
+            This Pomodoro timer can be used in OBS during streams of your study or work
+            session. Add <a href="#">https://25-5.xyz/obs.html</a> as a
+            browser source in OBS.</p>
+          <h3 class="u-full-width">Basic OBS Setup</h3>
+          <p class="u-full-width">In OBS under <code>Sources</code> add <code>Browser</code></p>
+          <p class="u-full-width">As <code>URL</code> set <a href="#">https://25-5.xyz/obs.html</a></p>
+          <p class="u-full-width">Set <code>Width</code> to <code>370</code> and <code>Height</code> to <code>520</code></p>
+          <p class="u-full-width">
+            Make sure in your <code>Custom CSS</code> field is this code:
+            <code>body { background-color: rgba(0,0,0,0); margin: 0px auto; overflow: hidden; }</code></p>
+          <p class="u-full-width">
+            To start the timer you have to right-click on the browser source and
+            click <code>Interact</code>. In this window you can start your 25 minutes timer.</p>
+          <p class="u-full-width">
+            A gong sound signals the end of the work session. Another gong
+            signals the end of the 5 minutes break session.</p>
+
+          <h3 class="u-full-width">Advanced Settings</h3>
+          <p class="u-full-width">
+            If you want custom time durations or don't need sounds you can
+            use a custom URL:
+            <a href="#">https://25-5.xyz/obs.html?tw=25&tb=5&sound=on</a></p>
+          <p class="u-full-width">
+            The first number <code>25</code> is the duration of the work session in minutes.
+            The second number <code>5</code> is the duration of the break in minutes. The last
+            parameter <code>sound</code> toggles the sound and can be set to <code>off</code>.</p>
+          <p class="u-full-width">
+            The URL for a timer with a work duration of 45 minutes and
+            a break duration of 10 minutes without sounds would look like this:
+            <a href="#">https://25-5.xyz/obs.html?tw=45&tb=10&sound=off</a></p>
+        </div>
+      </div>
+    </div>
+
+</body>
+
+<script src="main.js?v=0"></script>
+
+</html>
