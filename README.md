@@ -19,3 +19,7 @@
 [https://css-tricks.com/how-to-create-an-animated-countdown-timer-with-html-css-and-javascript/](https://css-tricks.com/how-to-create-an-animated-countdown-timer-with-html-css-and-javascript/)
 
 [https://www.color-hex.com/color-palette/104544](https://www.color-hex.com/color-palette/104544)
+
+.cpanel.yml
+    - /bin/cp -R * $DEPLOYPATH  // copy everything in from github repository to public_html
+    - /bin/cp -R /deployfolder/ $DEPLOYPATH  // mabybe create directory for deployment
