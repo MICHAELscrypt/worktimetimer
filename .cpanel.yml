@@ -2,4 +2,14 @@
   deployment:
     tasks:
       - export DEPLOYPATH=/home/auvliqsp/public_html/
-      - /bin/cp * $DEPLOYPATH
+      - /bin/cp -R css $DEPLOYPATH
+      - /bin/cp -R favicon $DEPLOYPATH
+      - /bin/cp -R fonts $DEPLOYPATH
+      - /bin/cp -R sounds $DEPLOYPATH
+      - /bin/cp custom.html $DEPLOYPATH
+      - /bin/cp index.html $DEPLOYPATH
+      - /bin/cp learnmore.html $DEPLOYPATH
+      - /bin/cp main.js $DEPLOYPATH
+      - /bin/cp obs-how-to.html $DEPLOYPATH
+      - /bin/cp obs.html $DEPLOYPATH
+      - /bin/cp timer.html $DEPLOYPATH
